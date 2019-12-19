@@ -13,7 +13,7 @@ disqusShortname = "yourdiscussshortname"
 theme = "monopriv"
 
 [params]
-about = "Software engineer passionate about everyhting JS, WebAssembly and Go. With an interest in DevOps."
+about = "Software engineer passionate about everything JS, WebAssembly and Go. With an interest in DevOps."
 img = "img/me.jpg"
 github = "https://github.com/dorin131"
 gitlab = "https://gitlab.com"
@@ -21,7 +21,7 @@ email = "dorin.fodor+site@gmail.com"
 # site meta description
 metadesc = "Dorin Fodor software engineer"
 # site meta keywords
-metakeys = "hugo, simple, minimal, bootstrap, blog"
+metakeys = "dorin, fodor, software, engineer"
 # enable/disable disqus comments 
 disqus = false 
 # enable/disable google analytics 
