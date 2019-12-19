@@ -1,0 +1,71 @@
+baseURL = "https://fodor.org/"
+title = "Dorin Fodor"
+languagecode = "en"
+author = "Dorin Fodor"
+copyright = "Copyright © 2008–2019"
+paginate = 3
+languageCode = "en"
+DefaultContentLanguage = "en"
+enableInlineShortcodes = true
+footnoteReturnLinkContents = "^"
+googleAnalytics = "UA-123-45"
+disqusShortname = "yourdiscussshortname"
+theme = "monopriv"
+
+[params]
+about = "Software engineer passionate about everyhting JS, WebAssembly and Go. With an interest in DevOps."
+img = "img/me.jpg"
+github = "https://github.com/dorin131"
+gitlab = "https://gitlab.com"
+email = "dorin.fodor+site@gmail.com"
+# site meta description
+metadesc = "Dorin Fodor software engineer"
+# site meta keywords
+metakeys = "hugo, simple, minimal, bootstrap, blog"
+# enable/disable disqus comments 
+disqus = false 
+# enable/disable google analytics 
+analytics = false
+
+[menu]
+  [[menu.main]]
+    identifier = "about"
+    name = "About"
+    url = "/about/"
+    weight = 10
+
+[permalinks]
+  post = "/blog/:slug/"
+  page = "/:slug/"
+
+[taxonomies]
+category = "categories"
+tag = "tags"
+series = "series"
+
+[privacy]
+
+  [privacy.vimeo]
+    disabled = false
+    simple = true
+
+  [privacy.twitter]
+    disabled = false
+    enableDNT = true
+    simple = true
+
+  [privacy.instagram]
+    disabled = false
+    simple = true
+
+  [privacy.youtube]
+    disabled = false
+    privacyEnhanced = true
+
+[services]
+
+  [services.instagram]
+    disableInlineCSS = true
+
+  [services.twitter]
+    disableInlineCSS = true
