@@ -77,3 +77,5 @@ Choosing how many threads you want to spawn at the same time will depend on the 
 
 Also, just to make sure this was not misinterpreted. The limitation comes from the operation that you are performing in parallel and not the goroutines in themselves, as you can run many thousands without any issue.
 
+### Video version
+{{< youtube sGkV5ol3K_k >}}
