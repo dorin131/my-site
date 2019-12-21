@@ -9,7 +9,7 @@ DefaultContentLanguage = "en"
 enableInlineShortcodes = true
 footnoteReturnLinkContents = "^"
 googleAnalytics = "UA-123-45"
-disqusShortname = "yourdiscussshortname"
+disqusShortname = "dorinfodor"
 theme = "monopriv"
 
 [params]
@@ -21,13 +21,13 @@ youtube = "https://www.youtube.com/channel/UCfFe22CVJ0e0o91QLDrwxPw/"
 visualstudio = "https://marketplace.visualstudio.com/publishers/dorin131"
 devto = "https://dev.to/dorin"
 medium = "https://medium.com/@dorinfodor"
-email = "dorin.fodor+site@gmail.com"
+email = "******@gmail.com"
 # site meta description
 metadesc = "Dorin Fodor software engineer"
 # site meta keywords
 metakeys = "dorin, fodor, software, engineer"
 # enable/disable disqus comments 
-disqus = false 
+disqus = true 
 # enable/disable google analytics 
 analytics = false
 
