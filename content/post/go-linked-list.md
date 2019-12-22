@@ -14,7 +14,7 @@ This is a fist post from a series on Data Structure implementations in Go. I'm s
 
 The full code will be available on GitHub and I will break it down here in as small chunks as I see necessary and explain what was done.
 
-{% github github.com/dorin131/go-data-structures no-readme %}
+[https://github.com/dorin131/go-data-structures/](https://github.com/dorin131/go-data-structures/)
 
 This is not meant to be production code, so there is no error handling, it is meant for educational purposes only.
 
