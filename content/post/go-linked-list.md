@@ -10,13 +10,13 @@ tags: ["go", "data structure", "linked list"]
 > A linked list is a linear collection of data elements, whose order is not given by their physical placement in memory. Instead, each element points to the next. It is a data structure consisting of a collection of nodes which together represent a sequence. *(https://en.wikipedia.org/wiki/Linked_list)*
 
 ### A little intro
-This is a fist post from a series on Data Structure implementations in Go. I'm starting with what I consider one of the simplest data structures (I might be proven wrong later) and will continue with some of the other popular ones.
+This is a first post from a series on Data Structure implementations in Go. I'm starting with what I consider one of the simplest data structures (I might be proven wrong later) and will continue with some of the other popular ones.
 
 The full code will be available on GitHub and I will break it down here in as small chunks as I see necessary and explain what was done.
 
 [https://github.com/dorin131/go-data-structures/](https://github.com/dorin131/go-data-structures/)
 
-This is not meant to be production code, so there is no error handling, it is meant for educational purposes only.
+This is not meant to be production code, so there is no error handling, it is for educational purposes only.
 
 With all this said, let's get into it! :)
 
