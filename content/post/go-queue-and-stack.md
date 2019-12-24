@@ -1,5 +1,5 @@
 ---
-title: "Go data structures: Queue and Stack"
+title: "Data Structures in Go: Queue and Stack"
 draft: false
 date: 2019-12-24T18:45:00Z
 slug: "go-queue-and-stack"

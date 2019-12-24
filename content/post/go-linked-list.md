@@ -1,5 +1,5 @@
 ---
-title: "Go data structures: Linked List"
+title: "Data Structures in Go: Linked List"
 draft: false
 date: 2019-12-22T22:50:00Z
 slug: "go-linked-list"
