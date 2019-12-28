@@ -21,6 +21,7 @@ youtube = "https://www.youtube.com/channel/UCfFe22CVJ0e0o91QLDrwxPw/"
 visualstudio = "https://marketplace.visualstudio.com/publishers/dorin131"
 devto = "https://dev.to/dorin"
 medium = "https://medium.com/@dorinfodor"
+godoc = "https://godoc.org/github.com/dorin131/go-data-structures"
 email = "******@gmail.com"
 # site meta description
 metadesc = "Dorin Fodor software engineer"
