@@ -1,7 +1,7 @@
 ---
 title: "WebAssembly is easy — a hello world example"
 draft: false
-date: 2019-12-08T21:05:00Z
+date: 2019-12-07T21:05:00Z
 slug: "webassembly-hello-world"
 tags: ["webassembly", "hello world"]
 ---
