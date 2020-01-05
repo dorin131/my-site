@@ -12,7 +12,7 @@ In this article I want us to look at my implementation of a **Heap** data struct
 
 ### What is a Heap
 
-If I had to explain it in my own words, I would say that a Heap is a data structure which can be visualised as a nearly-complete binary tree ([read my post on Trees](https://dev.to/dorin/data-structures-in-go-tree-bst-1960)) and stores its data in an underlying array. By looking at one, you would probably assume that it is based on a linked list, but in fact it is not. Using a Heap we can we can sort items at a O(n*logn) time complexity and also create priority queues.
+If I had to explain it in my own words, I would say that a Heap is a data structure which can be visualised as a nearly-complete binary tree ([read my post on Trees](https://dev.to/dorin/data-structures-in-go-tree-bst-1960)) and stores its data in an underlying array. By looking at one, you would probably assume that it is based on a linked list, but in fact it is not. Using a Heap we can sort items at a O(n*logn) time complexity and also create priority queues.
 
 ![Alt Text](https://thepracticaldev.s3.amazonaws.com/i/q0dbcrmn64ycmmy5hwqc.png)
 
