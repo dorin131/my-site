@@ -49,7 +49,6 @@ package heap
 
 // Heap : contains a slice which holds the underlying heap data
 type Heap struct { // the total number of elements, which doesn't go down on extract
-	Size  int // the total number of elements, which goes down on extract
 	Items []int
 }
 
@@ -102,17 +101,6 @@ func (h *Heap) Parent(index int) int {
 func (h *Heap) Swap(indexOne, indexTwo int) {
 	h.Items[indexOne], h.Items[indexTwo] = h.Items[indexTwo], h.Items[indexOne]
 }
-
-// GetAllItems : returns all elements, including those discarded by extractions
-func (h *Heap) GetAllItems() []int {
-	return h.Items
-}
-
-// TrimItems : remove all elements outside the Heap
-func (h *Heap) TrimItems() {
-	h.Items = h.Items[:h.Size-1]
-}
-
 ``` 
 
 Next we have the actual Max Heap package which is going to use the structure we created earlier.
@@ -144,12 +132,11 @@ type MaxHeap struct {
 func New(input []int) *MaxHeap {
 	h := &MaxHeap{
 		&heap.Heap{
-			Size:  len(input),
 			Items: input,
 		},
 	}
 
-	if h.Size > 0 {
+	if len(h.Items) > 0 {
 		h.buildMaxHeap()
 	}
 
@@ -157,7 +144,7 @@ func New(input []int) *MaxHeap {
 }
 
 func (h *MaxHeap) buildMaxHeap() {
-	for i := h.Size / 2; i >= 0; i-- {
+	for i := len(h.Items)/2 - 1; i >= 0; i-- {
 		h.maxHeapifyDown(i)
 	}
 }
@@ -165,8 +152,7 @@ func (h *MaxHeap) buildMaxHeap() {
 // Insert : adds an element to the heap
 func (h *MaxHeap) Insert(item int) *MaxHeap {
 	h.Items = append(h.Items, item)
-	h.Size++
-	lastElementIndex := h.Size - 1
+	lastElementIndex := len(h.Items) - 1
 	h.maxHeapifyUp(lastElementIndex)
 
 	return h
@@ -174,19 +160,17 @@ func (h *MaxHeap) Insert(item int) *MaxHeap {
 
 // ExtractMax : returns the maximum element and removes it from the Heap
 func (h *MaxHeap) ExtractMax() int {
-	if h.Size == 0 {
+	if len(h.Items) == 0 {
 		log.Fatal("No items in the heap")
 	}
 	minItem := h.Items[0]
-	lastIndex := h.Size - 1
+	lastIndex := len(h.Items) - 1
 	h.Items[0] = h.Items[lastIndex]
 
-	// storing minimum at the end of the slice
-	h.Items[lastIndex] = minItem
+	// shrinking slice
+	h.Items = h.Items[:len(h.Items)-1]
 
 	h.maxHeapifyDown(0)
-
-	h.Size--
 
 	return minItem
 }
