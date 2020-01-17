@@ -2,7 +2,7 @@
 title: "JS: The difference between \"undefined\", \"null\" and \"void 0\""
 draft: false
 date: 2020-01-17T15:20:00Z
-slug: "how-undefined-null-void"
+slug: "js-undefined-null-void"
 tags: ["javascript", "ecmascript"]
 ---
 ### 🍎🍊🍌
