@@ -6,6 +6,6 @@ draft: false
 
 I'm a software engineer with extensive work experience in **JavaScript**, **TypeScript**, **NodeJS**, **Angular**, **Docker**, **Kubernetes** and **AWS**.
 
-Currently focused on sharing my knowledge through blog posts and videos and learning more about **Golang** and **WebAssembly**.
+In my free time I'm building a browser from scratch in **C++** (https://github.com/dorin131/DorinBrowser)
 
 Contact me at ![](../img/email.png)

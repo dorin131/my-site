@@ -34,7 +34,7 @@ This is our addition function in WASM (text format):
 Let’s break this down quickly and see what’s happening there line by line:
 
 1. We declare a new module. All of your WebAssembly code has to be contained in a module.
-2. Declaring a function which we export with the name `add`. This will allow us to call it from JS with `add()`. Then we say that it has two parameters of type 32bit Integer named `$n1` and `$n2`. Lastly we say that our punction is going to return another 32bit Integer.
+2. Declaring a function which we export with the name `add`. This will allow us to call it from JS with `add()`. Then we say that it has two parameters of type 32bit Integer named `$n1` and `$n2`. Lastly we say that our function is going to return another 32bit Integer.
 4. Put on stack `$n1` from local memory.
 5. Put on stack `$n2` from local memory.
 6. The built-in `i32.add` function will take the last two values from the stack, add them and return the sum.
