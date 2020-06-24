@@ -13,8 +13,8 @@ disqusShortname = "dorinfodor"
 theme = "monopriv"
 
 [params]
-about = "Software engineer passionate about everything JS, WebAssembly and Go. With an interest in DevOps."
-img = "img/me.jpg"
+about = "Software engineer passionate about everything JS, Go and C++. With an interest in DevOps."
+img = "img/me.jpeg"
 github = "https://github.com/dorin131"
 npm = "https://www.npmjs.com/~dorin131"
 youtube = "https://www.youtube.com/channel/UCfFe22CVJ0e0o91QLDrwxPw/"
