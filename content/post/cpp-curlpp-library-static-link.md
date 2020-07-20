@@ -1,5 +1,5 @@
 ---
-title: "C++: Using 3rd party libraries"
+title: "C++: Using 3rd party libraries in QT Creator"
 draft: false
 date: 2020-06-27T12:20:00Z
 slug: "cpp-libraries-curlpp"
